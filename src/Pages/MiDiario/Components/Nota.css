@@ -1,0 +1,23 @@
+.Nota-container{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:15px;
+  background-color: rgb(231, 24, 24);
+  width:90%;
+max-width:500px;
+  padding:4px;
+  border-radius:10px;
+  margin-top:200px;
+Margin-left:auto;
+margin-right:auto;
+padding: 15px;
+padding-bottom:5px;
+text-align:left; 
+}
+.title-label{
+  font-weight:bold;
+  font-size: 18px;
+  }
+  .fecha-label{
+    font-size:13px;
+    color: rgb(233, 32, 32);
+    }

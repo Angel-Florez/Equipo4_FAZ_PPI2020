@@ -1,0 +1,30 @@
+
+.perfil {
+  border-style: solid;
+  border-radius: 80%;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.barra {
+  margin-top: 70px;
+}
+.masculino {
+  margin-top: 90px;
+}
+.tuerca {
+  text-align: left;
+  margin-right: 40px;
+}
+.nombre {
+  margin-top: 60px;
+  margin-left: 95px;
+  margin-right: 90px;
+}
+.masculino {
+  margin-top: 60px;
+}
+.edad {
+  margin-top: 60px;
+}
