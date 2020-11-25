@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #b7f4ff;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+.color {
+  height: 1000px;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+}
+#titulo {
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #7bebff;
+  width: 45%;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  max-width: 150px;
+  min-width: 100px;
+  align-content: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#emocion {
+  max-width: 50px;
+  max-height: 50px;
+  vertical-align: center;
+}
+

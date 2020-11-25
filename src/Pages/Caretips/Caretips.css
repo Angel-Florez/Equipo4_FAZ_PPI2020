@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-size: 17px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+.Circulito {
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% -50%);
+}
+#Cerebro{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: -52px;
+}
+#Arte {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: 10px;
+}
+#Entre {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -65px;
+  margin-left: 60px;
+}
+#Flor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 28px;
+  margin-left: 72px;
+}
+#Musica {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 90px;
+  margin-left: 0px;
+}
+#Rosca {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 87px;
+  margin-left: -80px;
+}
+#Auto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 28px;
+  margin-left: -117px;
+}
+#Dinero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -65px;
+  margin-left: -117px;
+}
+#Molecula {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -110px;
+  margin-left: -102px;
+}
+.boton1{
+  margin-top: -110px;
+  align-items: center;
+  border:none;
+}
