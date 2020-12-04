@@ -17,10 +17,10 @@ router.post('/nueva-figura',(req,res)=>{
 
 const {id_caretips, Figura_mandala} = req.body;
 
-let figura = [cons_arteterapia, id_caretips, Figura_mandala];
+let figura = [ id_caretips, Figura_mandala];
 
-let nuevaFigura = `INSERT INTO arteterapia (cons_arteterapia, id_caretips, Figura_mandala)
-                  VALUES(?,?,?)`;
+let nuevaFigura = `INSERT INTO arteterapia ( id_caretips, Figura_mandala)
+                  VALUES(?,?)`;
 mysqlConnection.query(nuevaFigura, figura, (err,results, fields) => {
   if (err) {
     res.json({ status: 'error' + err.message, });
