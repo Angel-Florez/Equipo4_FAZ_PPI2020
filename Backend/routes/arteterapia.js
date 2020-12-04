@@ -15,7 +15,7 @@ router.get('/arteterapia',(req,res)=>{
     //METODO POST 
 router.post('/nueva-figura',(req,res)=>{
 
-const {cons_arteterapia, id_caretips, Figura_mandala} = req.body;
+const {id_caretips, Figura_mandala} = req.body;
 
 let figura = [cons_arteterapia, id_caretips, Figura_mandala];
 
